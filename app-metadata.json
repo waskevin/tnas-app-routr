@@ -1,21 +1,13 @@
 {
-  "number": 16,
   "name": "Routr",
   "source": "https://routr.io",
-  "docker_hub": "fonoster/routr",
-  "tag": "0.3.24",
+  "docker_image": "fonoster/routr:0.3.24",
+  "version": "0.3.24",
   "repository": "https://github.com/waskevin/tnas-app-routr",
-  "dual_arch": true,
   "architectures": [
-    "amd64",
-    "arm64"
+    "linux/amd64",
+    "linux/arm64"
   ],
-  "screenshot_path": "precheck-screenshots/routr/x86_64/run.png",
-  "screenshot_status": "pending",
-  "developer_name": "管浩良",
-  "developer_email": "k.kuan@qq.com",
-  "submission_status": "not_submitted",
-  "scheduled_publish": "20:00",
-  "runtime_status": "no_http",
-  "runtime_note": ""
+  "description": "Routr container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
 }
