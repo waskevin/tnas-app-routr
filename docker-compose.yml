@@ -1,0 +1,6 @@
+services:
+  routr:
+    image: fonoster/routr:0.3.24
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
